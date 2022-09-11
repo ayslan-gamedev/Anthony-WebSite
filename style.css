@@ -1,10 +1,34 @@
-.theme-light {
-    color: black;
+body{
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
+
+    background-size: 50px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    background-origin: border-box;
+    background-position: 0%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.theme-dark {
-    background-color: rgb(3, 9, 92);
+a{
+    text-decoration: none;
+    color:  var(--color);
+
 }
+
+.light{
+    --color: black;
+    --bg-color: white;
+    --bg-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-W.png?raw=true');
+}
+
+.dark{
+    --color: white;
+    --bg-color: black;
+    --bg-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-B.png?raw=true');
+}
+
 
 .barra {
     background-color: rgb(150, 150, 155);
@@ -37,25 +61,17 @@
     margin: 5PX;
 }
 
-body {
-    background-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-W.png?raw=true');
-    background-size: 50px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-
-    background-origin: border-box;
-    background-position: 0%;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 li {
+    
     list-style-type: none;
     font-size: 20px;
     margin: 16PX;
 }
 
-a {
-    text-decoration: none;
+
+a:hover{
+    color: blue;
 }
 
 .test-page {
