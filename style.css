@@ -37,14 +37,6 @@
     margin: 5PX;
 }
 
-ul{
-    
-}
-
-div {
-    
-}
-
 body {
     background-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-W.png?raw=true');
     background-size: 50px;
@@ -57,7 +49,7 @@ body {
 }
 
 li {
-    display: inline;
+    list-style-type: none;
     font-size: 20px;
     margin: 16PX;
 }
