@@ -30,11 +30,31 @@ li{
     margin: 16PX;
 }
 
+.downLi{
+    margin: 35PX;
+    font-size: 25px;
+}
+
 a{
     text-decoration: none;
 }
 
 .test-page {
+    margin: 1px;
     position: absolute;
     right: 10px;
+}
+.test-page-left {
+    margin: 1px;
+    position: absolute;
+    left: 10px;
+}
+
+.test-canva{
+    background-color: blue;
+    background-repeat: repeat-x;
+  
+}
+.test-margin5{
+    margin: 5PX;
 }
