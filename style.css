@@ -1,21 +1,40 @@
 .theme-dark{
-
+    background-color: rgb(3, 9, 92);
 }
 
 .theme-light{
-    background-color: white;
+    color: black;
+}
+
+.barra {
+    background-color: rgb(150, 150, 155);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    line-height: 30px;
+}
+
+div{
+
+}
+
+body{
     font-family: 'Times New Roman', Times, serif;
-    display: inline;
-    color: black;
-    margin: 8PX;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
 }
 
 li{
-
+    display: inline;    
+    font-size: 20px;
+    margin: 16PX;
 }
-a{
 
+a{
+    text-decoration: none;
+}
+
+.test-page {
+    position: absolute;
+    right: 10px;
 }
