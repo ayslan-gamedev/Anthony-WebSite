@@ -1,3 +1,6 @@
 {
-    "footsteps.doHighlightCurrentlyFocusedChunk": true
+    "footsteps.doHighlightCurrentlyFocusedChunk": true,
+    "cSpell.words": [
+        "Protogen"
+    ]
 }
