@@ -1,9 +1,9 @@
-.theme-dark{
-    background-color: rgb(3, 9, 92);
-}
-
 .theme-light{
     color: black;
+}
+
+.theme-dark{
+    background-color: rgb(3, 9, 92);
 }
 
 .barra {
@@ -16,8 +16,29 @@
     line-height: 30px;
 }
 
-div{
+.downLi{
+    margin: 35PX;
+    font-size: 25px;
+}
 
+.test-page-left {
+    margin: 1px;
+    position: absolute;
+    left: 10px;
+}
+
+.test-canva{
+    background-color: blue;
+    background-repeat: repeat-x;
+  
+}
+
+.test-margin5{
+    margin: 5PX;
+}
+
+div{
+    
 }
 
 body{
@@ -30,11 +51,6 @@ li{
     margin: 16PX;
 }
 
-.downLi{
-    margin: 35PX;
-    font-size: 25px;
-}
-
 a{
     text-decoration: none;
 }
@@ -43,18 +59,4 @@ a{
     margin: 1px;
     position: absolute;
     right: 10px;
-}
-.test-page-left {
-    margin: 1px;
-    position: absolute;
-    left: 10px;
-}
-
-.test-canva{
-    background-color: blue;
-    background-repeat: repeat-x;
-  
-}
-.test-margin5{
-    margin: 5PX;
 }
