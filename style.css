@@ -1,8 +1,8 @@
-.theme-light{
+.theme-light {
     color: black;
 }
 
-.theme-dark{
+.theme-dark {
     background-color: rgb(3, 9, 92);
 }
 
@@ -16,7 +16,7 @@
     line-height: 30px;
 }
 
-.downLi{
+.downLi {
     margin: 35PX;
     font-size: 25px;
 }
@@ -27,31 +27,31 @@
     left: 10px;
 }
 
-.test-canva{
+.test-canva {
     background-color: blue;
     background-repeat: repeat-x;
-  
+
 }
 
-.test-margin5{
+.test-margin5 {
     margin: 5PX;
 }
 
-div{
+div {
     
 }
 
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-li{
-    display: inline;    
+li {
+    display: inline;
     font-size: 20px;
     margin: 16PX;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
