@@ -9,6 +9,8 @@ body{
     background-origin: border-box;
     background-position: 0%;
     font-family: 'Times New Roman', Times, serif;
+
+    transition-duration: 0.60s;
 }
 
 a{
@@ -26,8 +28,12 @@ a{
     --color: white;
     --bg-color: black;
     --bg-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-B.png?raw=true');
+    --filter: invert(100%);
 }
 
+.imageInvert{
+    filter: var(--filter);
+}
 
 .barra {
     background-color: rgb(150, 150, 155);
