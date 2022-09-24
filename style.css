@@ -28,11 +28,6 @@ a{
     --color: white;
     --bg-color: black;
     --bg-image:  url('https://github.com/Ayslan-gamedev/Site-de-Anthony/blob/main/Images/Anthony-BG-B.png?raw=true');
-    --filter: invert(100%);
-}
-
-.imageInvert{
-    filter: var(--filter);
 }
 
 .barra {
